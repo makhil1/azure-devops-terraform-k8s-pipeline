@@ -8,7 +8,6 @@ steps:
 - script: echo K8S Terraform Azure!
   displayName: 'Run a one-line script'
 - task: DownloadSecureFile@1
-- task: DownloadSecureFile@1
   name: publickey
   inputs:
     secureFile: 'azure-rsa.pub'
