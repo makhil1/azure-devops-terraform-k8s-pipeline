@@ -13,7 +13,7 @@ steps:
     secureFile: 'azure-rsa.pub'
   name: publickey
   inputs:
-    secureFile: 'azure_rsa.pub'
+    secureFile: 'azure-rsa.pub'
 
 - task: TerraformCLI@0
   inputs:
